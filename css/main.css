@@ -3,7 +3,6 @@ body{
 }
 .flex{
     display: flex;
-    align-items: center;
     flex-wrap: wrap;
 }
 .header{
@@ -13,8 +12,11 @@ body{
     justify-content: space-around;
 }
 .header a{
-    color: white;
+    color: rgba(255, 255, 255, 0.685);
     text-decoration: none;
+}
+.header a:hover{
+    color: white;
 }
 .top__banner{
     justify-content: center;
@@ -25,4 +27,49 @@ body{
 }
 .top__banner a:hover{
     text-decoration: underline;
+}
+.bottom__banner h1{
+    margin: 0;
+}
+.bottom__banner{
+    display: block;
+    color: rgb(228, 228, 228);
+    text-align: center;
+    background-image: url("../img/bg-1.jpg");
+    height: 350px;
+    background-size: cover;
+    background-position: center;
+    padding-top: 100px;
+}
+.bottom__banner div a{
+    margin-right: 20px;
+    text-decoration: none;
+    color: rgb(0, 132, 255);
+}
+.bottom__banner div a:hover{
+    text-decoration: underline;
+}
+.bottom__banner div a:last-child{
+    margin-right: 0;
+}
+.space{
+    margin-top: 20px;
+    background-image: url("../img/black\ bg\ with\ iphone.webp");
+}
+.container{
+    margin: 20px 20px;
+}
+.top__container{
+    justify-content: center;
+    background-color: burlywood;
+}
+.middle__container{
+    margin-top: 20px;
+    justify-content: center;
+    background-color: burlywood;
+}
+.bottom__container{
+    margin-top: 20px;
+    justify-content: center;
+    background-color: burlywood;
 }
