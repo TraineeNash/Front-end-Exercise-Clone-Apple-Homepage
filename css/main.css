@@ -56,8 +56,9 @@ body{
     margin-top: 20px;
     background-image: url("../img/black\ bg\ with\ iphone.webp");
 }
-.container{
+/* .container{
     margin: 20px 20px;
+    background-color: black;
 }
 .top__container{
     justify-content: center;
@@ -66,10 +67,10 @@ body{
 .middle__container{
     margin-top: 20px;
     justify-content: center;
-    background-color: burlywood;
+    background-color: pink;
 }
 .bottom__container{
     margin-top: 20px;
     justify-content: center;
-    background-color: burlywood;
-}
+    background-color: brown; 
+} */
